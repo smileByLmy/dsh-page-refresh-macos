@@ -1,0 +1,48 @@
+{
+  "name": "dsh-page-refresh-macos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Refresh button and a power menu (restart / quit DeepSeek Harness) in the conversation header, built for macOS where the original dsh-page-refresh only worked on Windows.",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "dsh": ">=0.2.0-rc.2"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "relaunch.sh",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smileByLmy/dsh-page-refresh-macos.git"
+  },
+  "homepage": "https://github.com/smileByLmy/dsh-page-refresh-macos",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "reload",
+    "refresh",
+    "macos"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  }
+}

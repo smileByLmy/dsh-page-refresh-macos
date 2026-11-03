@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "页面刷新与电源菜单（macOS）",
+    "description": "会话右上角的刷新按钮，以及可重启 / 关闭 DeepSeek Harness 的电源菜单；使用 macOS 原生进程控制，不依赖 PowerShell。"
+  }
+}

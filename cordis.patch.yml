@@ -1,0 +1,4 @@
+# dsh-page-refresh-macos bundle patch: inserts the client + host row.
+- insert:
+    - id: dsh-page-refresh-macos
+      name: 'dsh-page-refresh-macos'

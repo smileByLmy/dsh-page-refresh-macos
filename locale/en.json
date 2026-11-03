@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Refresh & Power Menu (macOS)",
+    "description": "Session-header refresh button plus a power menu that restarts or quits DeepSeek Harness using native macOS process control instead of PowerShell."
+  }
+}
